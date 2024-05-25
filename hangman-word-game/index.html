@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Word Game</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Hangman Word Game</h1>
+
+            <div class="game">
+                <div class="hangman-box">
+                    <img src="images/hangman-0.svg" draggable="false" alt="hangman-img">
+                </div>
+                <div class="game-box">
+                    <ul class="word-display"></ul>
+                    <h4 class="hint-text">Hint: <b></b></h4>
+                    <h4 class="guesses-text">Incorrect guesses: <b>0 / 6</b></h4>
+                    <div class="keyboard"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="gameModal">
+        <div class="modal-content">
+            <img src="" alt="result-img">
+            <h4></h4>
+            <p></p>
+            <button>Play Again</button>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
